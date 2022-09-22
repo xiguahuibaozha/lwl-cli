@@ -1,3 +1,4 @@
+```js
 #!/usr/bin/env node   => 想要bin直接执行必须得指定环境（node）
 const program = require('commander');
 const packageJson = require('../package.json')
