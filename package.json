@@ -1,0 +1,37 @@
+{
+  "name": "test-cli",
+  "version": "1.0.0",
+  "description": "测试用的脚手架",
+  "bin": {
+    "lwl-cli": "dist/cli.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build:babel": "./node_modules/.bin/babel bin --out-dir dist",
+    "build:webpack": "./node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/lwllbt/test-cli.git"
+  },
+  "keywords": [
+    "lwl"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "lwl",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "babel-loader": "^8.2.5",
+    "commander": "^9.4.0",
+    "terser-webpack-plugin": "^5.3.6"
+  }
+}
