@@ -1,6 +1,6 @@
 {
   "name": "luowl-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "测试用的脚手架",
   "bin": {
     "lwl-cli": "bin/cli.js"
