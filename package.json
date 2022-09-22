@@ -1,5 +1,5 @@
 {
-  "name": "test-cli",
+  "name": "luowl-cli",
   "version": "1.0.0",
   "description": "测试用的脚手架",
   "bin": {
@@ -18,7 +18,7 @@
     "lwl"
   ],
   "files": [
-    "dist"
+    "bin"
   ],
   "author": "lwl",
   "license": "ISC",
